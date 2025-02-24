@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    display: block;
+    font-size: medium;
+    background-color: #fff;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+}
+.main-header{
+    margin: 20px;
+}
+.header-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.address{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 30px;
+}
+/* address{
+    display: flex;
+} */
+.address iframe{
+    /* width: 45px; */
+    border-radius:10px ;
+    margin-left: 30px;
+    margin: 10px;
+}
+.address-text{
+    font-size: 20px;
+    font-family:Arial,;
+}
+.address-text h3{
+    font-size: medium;
+}
+.address-text h5{
+    font-size: xx-small;
+    letter-spacing: 2px;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.51);
+    font-family: 'Times New Roman', Times, serif;
+}
+.date .time{
+    padding-top: 5px;
+}
+.checked-service{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.686);
+}
+.checked-servive-text h3{
+    font-size: small;
+    font-weight:600;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.checked-servive-text .duration-text{
+    font-size: xx-small;
+    font-weight: lighter;
+}
+.checked-service-price{
+    align-items: center;
+    display: flex; 
+}
+.checked-service-price h2{
+    font-size: small;
+}
+.total{
+
+}
+.total .total-text{
+
+}
+.total .total-text h2{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    font-weight:600;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.total .total-text h4{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    font-weight:600;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin: 5px  0;
+    color: green;
+}
+.total .total-text h5{
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-small;
+    font-weight: lighter;
+}
+.payment-method-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(235, 228, 228, 0.671);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.payment-method-container .pay{
+    width: 100%;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(235, 228, 228);
+}
+.payment-method-container .pay:hover{
+    background-color:rgba(255, 255, 255, 0.244) ;
+}
+.payment-method-container .pay:active{
+    transform: scale(0.9);
+}
+.payment-method-container .pay a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.payment-method-container .pay a .fas{
+    height: auto;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.payment-method-container .pay a p{
+    font-weight:600;
+    font-size: small;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color: green;
+}
+.payment-method-container .pay a h5{
+    font-size: x-small;
+    font-weight: lighter;
+    margin: 5px;
+    color: black;
+}
+.payment-method .form{
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+}
+.payment-method .form .booking-note{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 1rem;
+}
+.payment-method .form .text{
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    resize: none;
+}
+.payment-method .form .text::placeholder{
+    padding: 10px ;
+}
+.main-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    height: 4rem;
+}
+.main-total-text{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-total-service{
+    font-size: xx-small;
+    font-weight: lighter;
+}
+.main-total button{
+    width:20%;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+.main-total button:active{
+    transform: scale(0.9);
+}
